@@ -1,0 +1,4 @@
+repository "TheLastNight@fpaniaguaformacion@cloud"
+  path "/"
+    br "/main"
+    co "/main"
