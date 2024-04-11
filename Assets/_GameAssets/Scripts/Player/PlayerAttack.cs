@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    public GameObject proyectil;
     Animator animator;
     void Start()
     {
