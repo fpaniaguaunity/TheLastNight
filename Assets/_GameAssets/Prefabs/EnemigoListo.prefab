@@ -1927,6 +1927,7 @@ GameObject:
   - component: {fileID: 5400209531090242473}
   - component: {fileID: 1954689451468653913}
   - component: {fileID: 7052947592469104801}
+  - component: {fileID: -1278988095355965629}
   m_Layer: 0
   m_Name: EnemigoListo
   m_TagString: Untagged
@@ -2018,6 +2019,22 @@ MonoBehaviour:
   minAngle: 110
   maxAngle: 220
   distanciaAPlayer: 0
+--- !u!114 &-1278988095355965629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5171172232526684530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a444142faac9a24ebb18c45286506cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanciaExplosion: 2
+  prefabExplosion: {fileID: 2433282508537954060, guid: 3ef3ae421f71c5c4e97fe12dc2fc6312, type: 3}
+  damage: 0
+  targetTag: Player
 --- !u!1 &5376214541056951635
 GameObject:
   m_ObjectHideFlags: 0

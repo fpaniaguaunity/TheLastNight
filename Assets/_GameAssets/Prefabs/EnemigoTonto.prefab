@@ -2512,6 +2512,7 @@ GameObject:
   - component: {fileID: 8462286050999810239}
   - component: {fileID: 4592776154566221508}
   - component: {fileID: 5542452424654009855}
+  - component: {fileID: 2543538939665905708}
   m_Layer: 0
   m_Name: EnemigoTonto
   m_TagString: Untagged
@@ -2600,6 +2601,22 @@ MonoBehaviour:
   speed: 4
   minAngle: 110
   maxAngle: 220
+--- !u!114 &2543538939665905708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7200030504053985533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a444142faac9a24ebb18c45286506cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanciaExplosion: 2
+  prefabExplosion: {fileID: 4593184484909914552, guid: 2e1e9506f5904a64b81744324fb7cd50, type: 3}
+  damage: 0
+  targetTag: Player
 --- !u!1 &7626041578337660400
 GameObject:
   m_ObjectHideFlags: 0
