@@ -25,6 +25,7 @@ public class Explosionador : MonoBehaviour
             Destroy(gameObject);
             //TODO Hacer daño al player
             Debug.LogWarning("TODO: Hacer daño al player");
+            transformPlayer.gameObject.GetComponent<PlayerHealthManager>()?.RecibirPupa(damage);
         }
     }
 }

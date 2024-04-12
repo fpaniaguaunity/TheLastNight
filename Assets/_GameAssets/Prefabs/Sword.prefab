@@ -179,6 +179,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   efectoImpactoConAudio: {fileID: 1281762739466253991, guid: f48057cf6bb228e46a5bbaaafabe8a7a, type: 3}
-  pupa: 10
+  pupa: 50
   autodestruccion: 1
   tagEnemigo: Enemigo

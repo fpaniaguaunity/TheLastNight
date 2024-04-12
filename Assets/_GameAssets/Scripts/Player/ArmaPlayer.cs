@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class ArmaPlayer : MonoBehaviour
 {
-    //public Arma arma;
     public Arma arma;
+    //public ArmaSniper arma;
     public AudioClip audioReload;//Variable pública del fichero de audio
 
     public Image crossHair;
