@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Rendering.Universal.Internal;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -9,6 +8,8 @@ public class MainManager : MonoBehaviour
 {
     public static MainManager Instance;
     private static string KEY_VOLUME = "Volumen";
+
+    public AudioSource audioSourceBSO;
 
     private void Awake()
     {
@@ -37,5 +38,9 @@ public class MainManager : MonoBehaviour
     public void SaveAudioVolume(){
         PlayerPrefs.SetFloat(KEY_VOLUME,GameObject.Find("SliderVolume").GetComponent<Slider>().value);
         PlayerPrefs.Save();
+    }
+
+    public void ModifyVolume(){
+        audioSourceBSO.volume=GameObject.Find("SliderVolume").GetComponent<Slider>().value;
     }
 }
